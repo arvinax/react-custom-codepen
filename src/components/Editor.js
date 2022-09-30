@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCompressAlt, faExpandAlt } from '@fortawesome/free-solid-svg-icons';
 
 const Editor = (props) => {
-  // fteching data
+  // destructing data
   const { displayName, value, language, onChange } = props;
 
   const [open, setOpen] = useState(true);
